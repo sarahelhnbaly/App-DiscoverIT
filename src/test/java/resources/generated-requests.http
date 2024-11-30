@@ -1,0 +1,33 @@
+## Fetch all posts
+GET {{baseUrl}}/posts
+
+### Create a new post
+POST {{baseUrl}}/posts
+Content-Type: application/json
+
+{
+  "title": "New Post Title",
+  "content": "Content for the new post"
+}
+
+### Update an existing post
+PUT {{baseUrl}}/posts/123
+Content-Type: application/json
+
+{
+  "id": 123,
+  "title": "Updated Post Title",
+  "content": "Updated content for the post"
+}
+
+### Delete a post
+DELETE {{baseUrl}}/posts/123
+
+### User Login
+POST {{baseUrl}}/users/login
+Content-Type: application/json
+
+{
+    "username": "{{USERNAME}}",
+    "password": "{{PASSWORD}}"
+}
