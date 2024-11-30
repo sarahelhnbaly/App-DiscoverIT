@@ -3,3 +3,4 @@
 ![Entity Diagram DiscoverIt](https://github.com/user-attachments/assets/dbfbb0b6-ada8-44d9-af21-53ff6bbb1cbe)
 ![UCD drawio](https://github.com/user-attachments/assets/2d688b29-7264-4d92-8b2a-e65d4266810e)
 ![Logical View](https://github.com/user-attachments/assets/dfd2776f-392c-4b87-aee5-e9ee53401866)
+![PHOTO-2024-12-01-00-10-05](https://github.com/user-attachments/assets/91ffe6f6-6463-4856-bebb-c39c711965ee)
