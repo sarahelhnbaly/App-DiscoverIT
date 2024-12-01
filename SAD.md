@@ -48,11 +48,39 @@ This document describes the technical architecture of the GluGuide project, incl
 |  [DiscovrtIT Blog](https://discoveritapp.wixsite.com/discoverit-4)             | November 2024 | DiscovrtIT              |
 |  [DiscovrtIT Repository](https://github.com/sarahelhnbaly/App-DiscoverIT/tree/main)       | November 2024 | DiscovrtIT              |
 | [SRS](https://github.com/sarahelhnbaly/App-DiscoverIT/blob/main/SRS.md)    | November 2024 | DiscovrtIT              |
-| SRS                          | November 2024 | DiscovrtIT              |
-| UC: Create Account           | November 2024 | DiscovrtIT              |
+| [UC: Create Account]  ( https://github.com/sarahelhnbaly/App-DiscoverIT/issues)        | November 2024 | DiscovrtIT              |
+
+###1.5 Overview
+
+This document contains the Architectural Representation, Goals and Constraints as well as the Logical, Deployment, Implementation and Data Views.
+
+##2. Architectural Representation
+
+The back-end server uses Spring Boot and APIs, while the front-end consists of a Vue.js client with React Router and Axios. I follow the Model-View-Controller (MVC) architecture pattern.
 
 
 ![PHOTO-2024-11-30-20-58-05](https://github.com/user-attachments/assets/7e018d72-d70a-4389-bb21-ca15fe091864)
+
+In the backend I have folders for  'model' and 'controller' files.
+![image](https://github.com/user-attachments/assets/fac6da42-ddb8-4d03-8a7d-05888e95d2fc)
+
+In our frontend we manage the 'view' with components implemented on pages.
+## 3. Architectural Goals and Constraints
+
+As discussed in the previous chapters, both the front-end and back-end utilize the Model-View-Controller (MVC) pattern. This approach fosters a clean and organized software architecture, ensuring a clear separation between the view, controller, and model components.
+
+### Front-end
+
+Vue.js serves as the front-end framework, effectively managing the user interface and consuming data through API calls. Its reactive capabilities enhance the user experience by providing real-time updates and efficient state management.
+
+### Back-end
+
+Spring Boot is employed as the back-end framework, delivering robust RESTful endpoints for the front-end to interact with. It simplifies the development of production-ready applications and streamlines the creation of APIs.
+
+The front-end and back-end are distinct entities but communicate seamlessly through a REST API. Both components are built with JavaScript and are designed to ensure efficient data exchange and cohesive application functionality.
+
+![image](https://github.com/user-attachments/assets/6cba4c9e-ab52-4ebd-81fe-d854e4b243dc)
+
 ![PHOTO-2024-11-30-20-22-54](https://github.com/user-attachments/assets/3bccd97f-c33c-496d-98c5-9f82c620dba2)
 ![Entity Diagram DiscoverIt](https://github.com/user-attachments/assets/dbfbb0b6-ada8-44d9-af21-53ff6bbb1cbe)
 ![UCD drawio](https://github.com/user-attachments/assets/2d688b29-7264-4d92-8b2a-e65d4266810e)
