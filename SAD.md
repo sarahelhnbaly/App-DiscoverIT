@@ -1,3 +1,55 @@
+# Software Architecture Document
+
+## Table of Contents
+1. [Introduction](#introduction)
+   - [Purpose](#purpose)
+   - [Scope](#scope)
+   - [Definitions, Acronyms and Abbreviations](#definitions-acronyms-and-abbreviations)
+   - [References](#references)
+   - [Overview](#overview)
+   - [Architectural Representation](#architectural-representation)
+   - [Architectural Goals and Constraints](#architectural-goals-and-constraints)
+   - [Use-Case View](#use-case-view)
+   - [Logical View](#logical-view)
+     - [Overview](#overview-1)
+     - [Architecturally Significant Design Packages](#architecturally-significant-design-packages)
+   - [Process View](#process-view)
+   - [Deployment View](#deployment-view)
+   - [Implementation View](#implementation-view)
+   - [Data View](#data-view)
+   - [Size and Performance](#size-and-performance)
+   - [Quality](#quality)
+
+## 1. Introduction
+
+### 1.1 Purpose
+This document provides a comprehensive architectural overview of the system, using a number of different architectural views to depict different aspects of the system. It is intended to capture and convey the significant architectural decisions which have been made on the system.
+
+### 1.2 Scope
+This document describes the technical architecture of the GluGuide project, including the structure of classes, modules and dependencies.
+
+### 1.3 Definitions, Acronyms and Abbreviations
+
+| Abbreviation | Description                        |
+|--------------|------------------------------------|
+| API          | Application Programming Interface   |
+| MVC          | Model View Controller               |
+| REST         | Representational State Transfer     |
+| SDK          | Software Development Kit            |
+| SRS          | Software Requirements Specification  |
+| UC           | Use Case                           |
+| VCS          | Version Control System              |
+| n/a          | Not Applicable                      |
+
+###1.4 References
+
+| Title                        | Date        | Publishing Organization |
+|------------------------------|-------------|-------------------------|
+| DiscovrtIT Blog              | November 2024 | DiscovrtIT              |
+| DiscoverIT Repository         | November 2024 | DiscovrtIT              |
+| Overall Use Case Diagram     | November 2024 | DiscovrtIT              |
+| SRS                          | November 2024 | DiscovrtIT              |
+| UC: Create Account           | November 2024 | DiscovrtIT              |
 
 
 ![PHOTO-2024-11-30-20-58-05](https://github.com/user-attachments/assets/7e018d72-d70a-4389-bb21-ca15fe091864)
