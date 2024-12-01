@@ -87,9 +87,22 @@ Our overall UC diagram:
 
 ![image](https://github.com/user-attachments/assets/983e23e1-d9ac-46e4-88a1-860ce7c56bf1)
 
+## 5.Logical View 
+
+5.1 Overview
+
+The our project our elements are categorized by model, view and controller. Data Flow:
+![Logical View](https://github.com/user-attachments/assets/dfd2776f-392c-4b87-aee5-e9ee53401866)
+
+User Interaction (view) A user interaction will trigger a function to handle the form submission.
+Request Handling (Controller) The Controller receives the request, validates the data and passes it to the model.
+Database Interaction (Model) Model interacts with our database and performes operations.
+Response (Controller & View) The Controller sends back the result (success or error), which is then handled by the view to update the user interface accordingly.
+Generating an Architectural UML diagram for a JavaScript (JS) application are challenging because most UML tools and generators are geared toward object-oriented languages (like Java or C#) with strict class-based structures. We've tried PlantUML and UML Generator in VSC but they didnt work. In Intelij PlantUML works, but it does not automatically generate UML Diagrams, but we have to code Diagrams ourselfs.
+
 ![PHOTO-2024-11-30-20-22-54](https://github.com/user-attachments/assets/3bccd97f-c33c-496d-98c5-9f82c620dba2)
 ![Entity Diagram DiscoverIt](https://github.com/user-attachments/assets/dbfbb0b6-ada8-44d9-af21-53ff6bbb1cbe)
 
-![Logical View](https://github.com/user-attachments/assets/dfd2776f-392c-4b87-aee5-e9ee53401866)
+
 ![PHOTO-2024-12-01-00-10-05](https://github.com/user-attachments/assets/91ffe6f6-6463-4856-bebb-c39c711965ee)
 ![PHOTO-2024-12-01-00-25-18](https://github.com/user-attachments/assets/eeb8f8c9-1e2f-4483-bbee-1929e82e0230)
