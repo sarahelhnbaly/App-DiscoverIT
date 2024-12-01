@@ -126,7 +126,8 @@ My Deployment setup includes a client and a server.
 
 My database structure in a schema:
 
-![Entity Diagram DiscoverIt](https://github.com/user-attachments/assets/dbfbb0b6-ada8-44d9-af21-53ff6bbb1cbe)
+![image](https://github.com/user-attachments/assets/fa7d3760-ddf5-4b16-b8a8-17ae309d7c4a)
+
 
 ## 9. Size and Performance
 
