@@ -157,4 +157,5 @@ n/a
 n/a
 
 ## 4. Supporting Information
-If you would like to know the current state of this project, please visit the GluGuide-Blog.
+If you would like to know the current state of this project, please visit the [DIscoverIT](https://discoveritapp.wixsite.com/discoverit-4)
+ .
