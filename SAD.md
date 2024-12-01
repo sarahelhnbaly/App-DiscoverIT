@@ -89,7 +89,7 @@ Our overall UC diagram:
 
 ## 5.Logical View 
 
-5.1 Overview
+### 5.1 Overview
 
 The our project our elements are categorized by model, view and controller. Data Flow:
 ![Logical View](https://github.com/user-attachments/assets/dfd2776f-392c-4b87-aee5-e9ee53401866)
@@ -100,9 +100,36 @@ Database Interaction (Model) Model interacts with our database and performes ope
 Response (Controller & View) The Controller sends back the result (success or error), which is then handled by the view to update the user interface accordingly.
 Generating an Architectural UML diagram for a Java application are challenging because most UML tools and generators are geared toward object-oriented languages (like Java ) with strict class-based structures. We've tried PlantUML and UML Generator in VSC but they didnt work. In Intelij PlantUML works, but it does not automatically generate UML Diagrams, but we have to code Diagrams ourselfs.
 
+This is the class diagram for the feature Authentification
+
+![PHOTO-2024-12-01-00-25-18](https://github.com/user-attachments/assets/eeb8f8c9-1e2f-4483-bbee-1929e82e0230)
+
+###5.2 Architecturally Significant Design Packages
+
+1. User Authentication Package
+2. API Management Package
+3. Data Management Package
+4. Notification Service Package
+5. Analytics Package
+   
+##6. Process View
+
+n/a
+
+##7. Deployment View
+
+Our Deployment setup includes a client and a server.
 ![PHOTO-2024-11-30-20-22-54](https://github.com/user-attachments/assets/3bccd97f-c33c-496d-98c5-9f82c620dba2)
+
+##8. Data View
+
+My database structure in a schema:
 ![Entity Diagram DiscoverIt](https://github.com/user-attachments/assets/dbfbb0b6-ada8-44d9-af21-53ff6bbb1cbe)
 
+## 9. Size and Performance
 
-![PHOTO-2024-12-01-00-10-05](https://github.com/user-attachments/assets/91ffe6f6-6463-4856-bebb-c39c711965ee)
-![PHOTO-2024-12-01-00-25-18](https://github.com/user-attachments/assets/eeb8f8c9-1e2f-4483-bbee-1929e82e0230)
+n/a
+
+## 10. Quality/Metrics
+
+n/a
