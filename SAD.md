@@ -118,12 +118,14 @@ n/a
 
 ##7. Deployment View
 
-Our Deployment setup includes a client and a server.
+My Deployment setup includes a client and a server.
+
 ![PHOTO-2024-11-30-20-22-54](https://github.com/user-attachments/assets/3bccd97f-c33c-496d-98c5-9f82c620dba2)
 
 ##8. Data View
 
 My database structure in a schema:
+
 ![Entity Diagram DiscoverIt](https://github.com/user-attachments/assets/dbfbb0b6-ada8-44d9-af21-53ff6bbb1cbe)
 
 ## 9. Size and Performance
