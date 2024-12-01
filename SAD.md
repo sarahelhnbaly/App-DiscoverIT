@@ -65,6 +65,9 @@ In the backend I have folders for  'model' and 'controller' files.
 ![image](https://github.com/user-attachments/assets/fac6da42-ddb8-4d03-8a7d-05888e95d2fc)
 
 In our frontend we manage the 'view' with components implemented on pages.
+
+![image](https://github.com/user-attachments/assets/6cba4c9e-ab52-4ebd-81fe-d854e4b243dc)
+
 ## 3. Architectural Goals and Constraints
 
 As discussed in the previous chapters, both the front-end and back-end utilize the Model-View-Controller (MVC) pattern. This approach fosters a clean and organized software architecture, ensuring a clear separation between the view, controller, and model components.
@@ -79,7 +82,6 @@ Spring Boot is employed as the back-end framework, delivering robust RESTful end
 
 The front-end and back-end are distinct entities but communicate seamlessly through a REST API. Both components are built with JavaScript and are designed to ensure efficient data exchange and cohesive application functionality.
 
-![image](https://github.com/user-attachments/assets/6cba4c9e-ab52-4ebd-81fe-d854e4b243dc)
 
 ![PHOTO-2024-11-30-20-22-54](https://github.com/user-attachments/assets/3bccd97f-c33c-496d-98c5-9f82c620dba2)
 ![Entity Diagram DiscoverIt](https://github.com/user-attachments/assets/dbfbb0b6-ada8-44d9-af21-53ff6bbb1cbe)
