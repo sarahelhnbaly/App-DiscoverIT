@@ -56,7 +56,7 @@ The City Exploration Application will cater to a wide audience, including touris
 ### 1.4 References
 | Title                                                                         | Date       | Publishing Organization   |
 | ------------------------------------------------------------------------------ |:----------:| ------------------------- |
-|   [DiscoverIT Blog](https://discoveritapp.wixsite.com/discoverit-4)         |    -      |                           |
+|   [DiscoverIT Blog](https://discoveritapp.wixsite.com/discoverit-4)         |    -      |  Wixsite                         |
 | [DiscoverIT Github](https://github.com/sarahelhnbaly/App-DiscoverIT/)        |    -      | GitHub                    |
 |  [Project Management](https://citydiscoveryapp.youtrack.cloud/projects/0-1) |    -      | YouTrack                  |
 
