@@ -1,18 +1,21 @@
 <template>
-
   <div id="app">
-<NavBar/>
-<img alt="Vue logo" src="./assets/logo.png" />
-<RouterView/>
-</div>
+    <NavBar/>
+    <div class="logo-container">
+      <AppLogo/>
+    </div>
+    <RouterView/>
+  </div>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar.vue";
+import AppLogo from "@/components/AppLogo.vue";
 
 export default {
   name: 'App',
   components: {
+    AppLogo,
     NavBar,
   }
 };
@@ -26,5 +29,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
