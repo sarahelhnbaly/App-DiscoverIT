@@ -26,7 +26,7 @@
 This document provides a comprehensive architectural overview of the system, using a number of different architectural views to depict different aspects of the system. It is intended to capture and convey the significant architectural decisions which have been made on the system.
 
 ### 1.2 Scope
-This document describes the technical architecture of the GluGuide project, including the structure of classes, modules and dependencies.
+This document describes the technical architecture of DiscoverIT project, including the structure of classes, modules and dependencies.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
@@ -64,7 +64,7 @@ The back-end server uses Spring Boot and APIs, while the front-end consists of a
 In the backend I have folders for  'model' and 'controller' files.
 ![image](https://github.com/user-attachments/assets/fac6da42-ddb8-4d03-8a7d-05888e95d2fc)
 
-In our frontend we manage the 'view' with components implemented on pages.
+In our frontend we manage the 'vue' with components implemented on pages.
 
 ![image](https://github.com/user-attachments/assets/6cba4c9e-ab52-4ebd-81fe-d854e4b243dc)
 
@@ -83,6 +83,7 @@ Spring Boot is employed as the back-end framework, delivering robust RESTful end
 The front-end and back-end are distinct entities but communicate seamlessly through a REST API. Both components are built with JavaScript and are designed to ensure efficient data exchange and cohesive application functionality.
 
 ## 4. Use-Case View
+
 Our overall UC diagram:
 
 ![image](https://github.com/user-attachments/assets/983e23e1-d9ac-46e4-88a1-860ce7c56bf1)
@@ -91,14 +92,19 @@ Our overall UC diagram:
 
 ### 5.1 Overview
 
-The our project our elements are categorized by model, view and controller. Data Flow:
+The project's elements are categorized by model, view and controller. Data Flow:
+
 ![Logical View](https://github.com/user-attachments/assets/dfd2776f-392c-4b87-aee5-e9ee53401866)
 
 User Interaction (view) A user interaction will trigger a function to handle the form submission.
 Request Handling (Controller) The Controller receives the request, validates the data and passes it to the model.
 Database Interaction (Model) Model interacts with our database and performes operations.
 Response (Controller & View) The Controller sends back the result (success or error), which is then handled by the view to update the user interface accordingly.
-Generating an Architectural UML diagram for a Java application are challenging because most UML tools and generators are geared toward object-oriented languages (like Java ) with strict class-based structures. We've tried PlantUML and UML Generator in VSC but they didnt work. In Intelij PlantUML works, but it does not automatically generate UML Diagrams, but we have to code Diagrams ourselfs.
+Generating an Architectural UML diagram for a Java application.
+
+![1](https://github.com/user-attachments/assets/7964b70a-0095-4238-b2a9-1adf8b393f71)
+
+![app](https://github.com/user-attachments/assets/1b4ab2d0-e6ee-4d7b-a80a-c1bd168362cc)
 
 This is the class diagram for the feature Authentification
 
