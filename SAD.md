@@ -98,7 +98,7 @@ User Interaction (view) A user interaction will trigger a function to handle the
 Request Handling (Controller) The Controller receives the request, validates the data and passes it to the model.
 Database Interaction (Model) Model interacts with our database and performes operations.
 Response (Controller & View) The Controller sends back the result (success or error), which is then handled by the view to update the user interface accordingly.
-Generating an Architectural UML diagram for a JavaScript (JS) application are challenging because most UML tools and generators are geared toward object-oriented languages (like Java or C#) with strict class-based structures. We've tried PlantUML and UML Generator in VSC but they didnt work. In Intelij PlantUML works, but it does not automatically generate UML Diagrams, but we have to code Diagrams ourselfs.
+Generating an Architectural UML diagram for a Java application are challenging because most UML tools and generators are geared toward object-oriented languages (like Java ) with strict class-based structures. We've tried PlantUML and UML Generator in VSC but they didnt work. In Intelij PlantUML works, but it does not automatically generate UML Diagrams, but we have to code Diagrams ourselfs.
 
 ![PHOTO-2024-11-30-20-22-54](https://github.com/user-attachments/assets/3bccd97f-c33c-496d-98c5-9f82c620dba2)
 ![Entity Diagram DiscoverIt](https://github.com/user-attachments/assets/dbfbb0b6-ada8-44d9-af21-53ff6bbb1cbe)
