@@ -46,7 +46,7 @@ This document describes the technical architecture of the GluGuide project, incl
 | Title                        | Date        | Publishing Organization |
 |------------------------------|-------------|-------------------------|
 |  [DiscovrtIT Blog](https://discoveritapp.wixsite.com/discoverit-4)             | November 2024 | DiscovrtIT              |
-| DiscoverIT Repository         | November 2024 | DiscovrtIT              |
+|  [DiscovrtIT Repository](https://github.com/sarahelhnbaly/App-DiscoverIT/tree/main)       | November 2024 | DiscovrtIT              |
 | Overall Use Case Diagram     | November 2024 | DiscovrtIT              |
 | SRS                          | November 2024 | DiscovrtIT              |
 | UC: Create Account           | November 2024 | DiscovrtIT              |
