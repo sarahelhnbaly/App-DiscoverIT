@@ -82,10 +82,14 @@ Spring Boot is employed as the back-end framework, delivering robust RESTful end
 
 The front-end and back-end are distinct entities but communicate seamlessly through a REST API. Both components are built with JavaScript and are designed to ensure efficient data exchange and cohesive application functionality.
 
+## 4. Use-Case View
+Our overall UC diagram:
+
+![image](https://github.com/user-attachments/assets/983e23e1-d9ac-46e4-88a1-860ce7c56bf1)
 
 ![PHOTO-2024-11-30-20-22-54](https://github.com/user-attachments/assets/3bccd97f-c33c-496d-98c5-9f82c620dba2)
 ![Entity Diagram DiscoverIt](https://github.com/user-attachments/assets/dbfbb0b6-ada8-44d9-af21-53ff6bbb1cbe)
-![UCD drawio](https://github.com/user-attachments/assets/2d688b29-7264-4d92-8b2a-e65d4266810e)
+
 ![Logical View](https://github.com/user-attachments/assets/dfd2776f-392c-4b87-aee5-e9ee53401866)
 ![PHOTO-2024-12-01-00-10-05](https://github.com/user-attachments/assets/91ffe6f6-6463-4856-bebb-c39c711965ee)
 ![PHOTO-2024-12-01-00-25-18](https://github.com/user-attachments/assets/eeb8f8c9-1e2f-4483-bbee-1929e82e0230)
