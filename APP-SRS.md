@@ -56,7 +56,6 @@ The City Exploration Application will cater to a wide audience, including touris
 ### 1.4 References
 | Title                                                                         | Date       | Publishing Organization   |
 | ------------------------------------------------------------------------------ |:----------:| ------------------------- |
-|   [DiscoverIT Blog](https://discoveritapp.wixsite.com/discoverit-4)         |    -      |                           |
 | [DiscoverIT Github](https://github.com/sarahelhnbaly/App-DiscoverIT/)        |    -      | GitHub                    |
 |  [Project Management](https://citydiscoveryapp.youtrack.cloud/projects/0-1) |    -      | YouTrack                  |
 
@@ -157,4 +156,3 @@ n/a
 n/a
 
 ## 4. Supporting Information
-If you would like to know the current state of this project, please visit the GluGuide-Blog.
